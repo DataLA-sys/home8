@@ -1,0 +1,49 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "b691dce0-3f79-11ef-b3b9-cf02e18c4429"
+    },
+    "description" : null,
+    "entityType" : "DEVICE_PROFILE",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5276c490-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5276c490-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "image" : null,
+    "name" : "videoProfile1",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "RTSP",
+        "baseRtspUrl" : "rtsp://"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "RTSP",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

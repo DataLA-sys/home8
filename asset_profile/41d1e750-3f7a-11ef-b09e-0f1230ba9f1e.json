@@ -1,0 +1,26 @@
+{
+  "entityType" : "ASSET_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default asset profile",
+    "entityType" : "ASSET_PROFILE",
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "41d1e750-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "id" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "41d1e750-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "image" : null,
+    "name" : "TbServiceQueue"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
