@@ -28,19 +28,16 @@
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : {
-      "entityType" : "ENTITY_GROUP",
-      "id" : "b6c6a880-3f79-11ef-b3b9-cf02e18c4429"
-    },
+    "externalId" : null,
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "b6c6a880-3f79-11ef-b3b9-cf02e18c4429"
+      "id" : "6dbf3960-686c-11ef-93e5-f1caf8551292"
     },
     "name" : "All",
     "ownerId" : {
-      "entityType" : "CUSTOMER",
-      "id" : "b6c5e530-3f79-11ef-b3b9-cf02e18c4429"
+      "entityType" : "TENANT",
+      "id" : "6dafa900-686c-11ef-93e5-f1caf8551292"
     },
     "type" : "CUSTOMER"
   },
