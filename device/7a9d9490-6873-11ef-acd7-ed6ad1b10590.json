@@ -48,7 +48,7 @@
       "entityType" : "DEVICE",
       "id" : "7a9d9490-6873-11ef-acd7-ed6ad1b10590"
     },
-    "label" : "lllllll",
+    "label" : "llllllll",
     "name" : "video1",
     "ownerId" : null,
     "softwareId" : null,
@@ -59,6 +59,7 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
