@@ -1,0 +1,98 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "RTSP",
+        "convertToJpeg" : true,
+        "enable" : true,
+        "frameFolder" : "/var/tmp/",
+        "frameIntervalMs" : 250,
+        "height" : 800,
+        "playFileName" : "/home/pavel-simanikhin/Downloads/Migraciya_2023_320.mp4",
+        "playVideo" : false,
+        "rate264compression" : 0,
+        "saveVideo" : false,
+        "transport" : "udp",
+        "transportName" : null,
+        "url" : "rtsp://localhost:8554/aaa",
+        "use264compression" : false,
+        "videoDurationMin" : 5,
+        "videoFileFormat" : "'${deviceId}-'YYYY-MM-dd-HH-mm-ss.SSS'.mp4'",
+        "videoFolder" : "/var/tmp/",
+        "webPooling" : false,
+        "webPoolingInterval" : 250,
+        "width" : 1024
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "692fc200-6873-11ef-acd7-ed6ad1b10590"
+    },
+    "entityType" : "DEVICE",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "7a9d9490-6873-11ef-acd7-ed6ad1b10590"
+    },
+    "label" : "",
+    "name" : "video1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "video"
+  },
+  "credentials" : {
+    "credentialsId" : "aQo9WAV22DFMVWfp1yUi",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1725625713577,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1725625713831,
+      "longValue" : 1725625713574,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1725610983060,
+      "longValue" : 1725610981134,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1725611115062,
+      "longValue" : 1725611115062,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
