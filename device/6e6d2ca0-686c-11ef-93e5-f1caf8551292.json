@@ -19,7 +19,10 @@
       "id" : "6db6d4f0-686c-11ef-93e5-f1caf8551292"
     },
     "entityType" : "DEVICE",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "6e6d2ca0-686c-11ef-93e5-f1caf8551292"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",

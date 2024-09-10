@@ -1166,7 +1166,10 @@
     },
     "customerId" : null,
     "entityType" : "DASHBOARD",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "6e959c30-686c-11ef-93e5-f1caf8551292"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "6e959c30-686c-11ef-93e5-f1caf8551292"

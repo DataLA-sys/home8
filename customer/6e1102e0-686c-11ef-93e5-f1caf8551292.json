@@ -12,7 +12,10 @@
     },
     "email" : null,
     "entityType" : "CUSTOMER",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6e1102e0-686c-11ef-93e5-f1caf8551292"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "6e1102e0-686c-11ef-93e5-f1caf8551292"
