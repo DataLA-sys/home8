@@ -9,19 +9,15 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "title",
+        "key" : "name",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "email",
+        "key" : "device_profile",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "country",
-        "sortOrder" : "NONE"
-      }, {
-        "type" : "ENTITY_FIELD",
-        "key" : "city",
+        "key" : "label",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
@@ -32,14 +28,14 @@
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "6e062d70-686c-11ef-93e5-f1caf8551292"
+      "id" : "6e0717d0-686c-11ef-93e5-f1caf8551292"
     },
     "name" : "All",
     "ownerId" : {
       "entityType" : "CUSTOMER",
       "id" : "6e040a90-686c-11ef-93e5-f1caf8551292"
     },
-    "type" : "CUSTOMER"
+    "type" : "DEVICE"
   },
   "relations" : [ ],
   "attributes" : {

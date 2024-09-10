@@ -9,7 +9,15 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "title",
+        "key" : "name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "device_profile",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "label",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
@@ -20,14 +28,14 @@
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "6e13c200-686c-11ef-93e5-f1caf8551292"
+      "id" : "6e12b090-686c-11ef-93e5-f1caf8551292"
     },
     "name" : "All",
     "ownerId" : {
       "entityType" : "CUSTOMER",
       "id" : "6e1102e0-686c-11ef-93e5-f1caf8551292"
     },
-    "type" : "DASHBOARD"
+    "type" : "DEVICE"
   },
   "relations" : [ ],
   "attributes" : {

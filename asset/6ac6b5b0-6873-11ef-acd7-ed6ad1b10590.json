@@ -1,0 +1,28 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e9e752b0-686d-11ef-ba2a-35679bb3c359"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "entityType" : "ASSET",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "6ac6b5b0-6873-11ef-acd7-ed6ad1b10590"
+    },
+    "label" : null,
+    "name" : "HighPriority_pavel-simanikhin-HP-470-G8-Notebook-PC",
+    "ownerId" : null,
+    "type" : "TbServiceQueue"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
