@@ -9,36 +9,38 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "name",
+        "key" : "first_name",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "asset_profile",
+        "key" : "last_name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "email",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : {
-      "entityType" : "ENTITY_GROUP",
-      "id" : "6dc098f0-686c-11ef-93e5-f1caf8551292"
-    },
+    "externalId" : null,
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "6dc098f0-686c-11ef-93e5-f1caf8551292"
+      "id" : "d5f945e0-6f68-11ef-91ee-6b425193e9b2"
     },
     "name" : "All",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "d5e15110-6f68-11ef-91ee-6b425193e9b2"
     },
-    "type" : "ASSET"
+    "type" : "USER"
   },
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   },
-  "groupEntities" : true
+  "groupEntities" : true,
+  "permissions" : [ ]
 }

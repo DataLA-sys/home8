@@ -13,28 +13,29 @@
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "asset_profile",
+        "key" : "type",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "label",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : {
-      "entityType" : "ENTITY_GROUP",
-      "id" : "6dc098f0-686c-11ef-93e5-f1caf8551292"
-    },
+    "externalId" : null,
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "6dc098f0-686c-11ef-93e5-f1caf8551292"
+      "id" : "d65bd840-6f68-11ef-91ee-6b425193e9b2"
     },
     "name" : "All",
     "ownerId" : {
-      "entityType" : "TENANT",
-      "id" : "d5e15110-6f68-11ef-91ee-6b425193e9b2"
+      "entityType" : "CUSTOMER",
+      "id" : "6e040a90-686c-11ef-93e5-f1caf8551292"
     },
-    "type" : "ASSET"
+    "type" : "EDGE"
   },
   "relations" : [ ],
   "attributes" : {
