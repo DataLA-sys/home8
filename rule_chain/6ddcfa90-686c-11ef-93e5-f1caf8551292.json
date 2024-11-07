@@ -11,7 +11,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "6de781e0-686c-11ef-93e5-f1caf8551292"
+      "id" : "520dd730-6f6a-11ef-b11c-27ac7bfc73fe"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -23,46 +23,63 @@
   },
   "metaData" : {
     "connections" : [ {
-      "fromIndex" : 2,
+      "fromIndex" : 0,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
       "toIndex" : 0,
       "type" : "Post telemetry"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 1,
-      "type" : "Post attributes"
-    }, {
-      "fromIndex" : 2,
-      "toIndex" : 3,
+      "fromIndex" : 1,
+      "toIndex" : 2,
       "type" : "RPC Request from Device"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 4,
+      "fromIndex" : 1,
+      "toIndex" : 3,
       "type" : "Other"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 5,
+      "fromIndex" : 1,
+      "toIndex" : 4,
       "type" : "RPC Request to Device"
     }, {
-      "fromIndex" : 6,
-      "toIndex" : 2,
+      "fromIndex" : 1,
+      "toIndex" : 6,
+      "type" : "Attributes Updated"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 6,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 1,
       "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 9,
+      "type" : "Failure"
     } ],
-    "firstNodeIndex" : 6,
+    "firstNodeIndex" : 5,
     "nodes" : [ {
       "additionalInfo" : {
-        "layoutX" : 824,
-        "layoutY" : 156
+        "description" : null,
+        "layoutX" : 1019,
+        "layoutY" : 112
       },
       "configuration" : {
         "defaultTTL" : 0
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de3b150-686c-11ef-93e5-f1caf8551292"
+        "id" : "520a7bd0-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -70,27 +87,7 @@
       "type" : "org.fundamento.rule.engine.telemetry.TbMsgTimeseriesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 825,
-        "layoutY" : 52
-      },
-      "configuration" : {
-        "scope" : "CLIENT_SCOPE",
-        "notifyDevice" : "false"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6de58610-686c-11ef-93e5-f1caf8551292"
-      },
-      "name" : "Save Client Attributes",
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.fundamento.rule.engine.telemetry.TbMsgAttributesNode"
-    }, {
-      "additionalInfo" : {
+        "description" : null,
         "layoutX" : 347,
         "layoutY" : 149
       },
@@ -99,11 +96,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de5d430-686c-11ef-93e5-f1caf8551292"
+        "id" : "520cecd0-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -125,7 +122,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de64960-686c-11ef-93e5-f1caf8551292"
+        "id" : "520d3af0-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -147,7 +144,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de6be90-686c-11ef-93e5-f1caf8551292"
+        "id" : "520d8910-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -167,7 +164,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de70cb0-686c-11ef-93e5-f1caf8551292"
+        "id" : "520db020-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -189,12 +186,125 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6de781e0-686c-11ef-93e5-f1caf8551292"
+        "id" : "520dd730-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.fundamento.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 471,
+        "layoutY" : 673
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0680ee0-92fc-11ef-9c6b-4f158379d5e0"
+      },
+      "name" : "jjj",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.fundamento.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1034,
+        "layoutY" : 379
+      },
+      "configuration" : {
+        "restEndpointUrlPattern" : "https://opentdb.com/api.php?amount=1&category=18",
+        "requestMethod" : "GET",
+        "useSimpleClientHttpFactory" : false,
+        "trimDoubleQuotes" : false,
+        "ignoreRequestBody" : false,
+        "enableProxy" : false,
+        "useSystemProxyProperties" : false,
+        "proxyScheme" : null,
+        "proxyHost" : null,
+        "proxyPort" : 0,
+        "proxyUser" : null,
+        "proxyPassword" : null,
+        "readTimeoutMs" : 1500,
+        "maxParallelRequestsCount" : 0,
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "useRedisQueueForMsgPersistence" : false,
+        "trimQueue" : null,
+        "maxQueueSize" : null,
+        "credentials" : {
+          "type" : "anonymous"
+        },
+        "oneInTime" : true
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1b1484a0-92ff-11ef-9c6b-4f158379d5e0"
+      },
+      "name" : "restCall",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.fundamento.rule.engine.rest.TbRestApiCallNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1178,
+        "layoutY" : 600
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0d259af0-9444-11ef-ba35-33434b091848"
+      },
+      "name" : "restLog",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.fundamento.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 809,
+        "layoutY" : 622
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d7767b0-9447-11ef-a30c-5f977dc3dd95"
+      },
+      "name" : "log rest fail",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.fundamento.rule.engine.action.TbLogNode"
     } ],
     "ruleChainConnections" : null
   },

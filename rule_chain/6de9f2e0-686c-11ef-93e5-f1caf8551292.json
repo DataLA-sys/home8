@@ -13,7 +13,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "6ded2730-686c-11ef-93e5-f1caf8551292"
+      "id" : "5221d460-6f6a-11ef-b11c-27ac7bfc73fe"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -64,7 +64,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6deb0450-686c-11ef-93e5-f1caf8551292"
+        "id" : "522074d0-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -84,7 +84,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6deb5270-686c-11ef-93e5-f1caf8551292"
+        "id" : "52209be0-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Save Client Attributes",
       "ruleChainId" : null,
@@ -104,7 +104,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6debc7a0-686c-11ef-93e5-f1caf8551292"
+        "id" : "5220ea00-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -126,7 +126,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6dec15c0-686c-11ef-93e5-f1caf8551292"
+        "id" : "52213820-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -148,7 +148,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6dec8af0-686c-11ef-93e5-f1caf8551292"
+        "id" : "52218640-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -168,7 +168,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6decd910-686c-11ef-93e5-f1caf8551292"
+        "id" : "5221ad50-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -190,7 +190,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6ded2730-686c-11ef-93e5-f1caf8551292"
+        "id" : "5221d460-6f6a-11ef-b11c-27ac7bfc73fe"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
